@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B695C0;
+    margin: 0;
+    padding: 0;
+}   
+
+main {
+    display: flex;
+    padding: 0px 30%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text h1{
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    justify-content: space-around;
+}
+.playlist {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.playlist h2 {
+    font-size: 20px;
+    margin-top: 0;
+    font-family: cursive;
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+    font-family: "Arial", sans-serif;
+}
+
+li:hover {
+    background-color: #f4f4f4;
+}
+
+.player {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.player h2 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #3498db;
+    font-family: cursive;
+}
+
+#audioPlayer {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#songDetails {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+#searchInput {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0px 15px 83px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
